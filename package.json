@@ -1,23 +1,18 @@
 {
-  "name": "aula-26-02-2025-evolucao-no-typescript-2",
+  "name": "aula-26-02-2025-evolucao-no-typescript",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Coutinh00/Aula-26-02-2025-Evolucao-no-TypeScript.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Coutinh00/Aula-26-02-2025-Evolucao-no-TypeScript/issues"
-  },
-  "homepage": "https://github.com/Coutinh00/Aula-26-02-2025-Evolucao-no-TypeScript#readme",
-  "description": "",
   "devDependencies": {
-    "typescript": "^5.8.2"
+    "typescript": "^5.x.x"
   }
 }
